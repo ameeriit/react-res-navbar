@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 
 const Navbar = () => {
   return (
     <>
-      <nav className="main-navigation hidden md:block">
+      <nav className="main-navigation hidden gap-10 md:flex">
         <ul className="menu flex gap-10 ">
           <li className="menu-item">
             <NavLink to="/">Home</NavLink>
@@ -26,6 +27,17 @@ const Navbar = () => {
               </li>
             </ul>
           </li>
+        </ul>
+        <ul className="social-menu gap-4 hidden md:flex">
+          <a href="https://www.facebook.com/example-page">
+            <FaFacebook size={24} color="#3b5998" />
+          </a>
+          <a href="https://twitter.com/example-account">
+            <FaTwitter size={24} color="#1da1f2" />
+          </a>
+          <a href="https://www.instagram.com/example-profile">
+            <FaInstagram size={24} color="#e4405f" />
+          </a>
         </ul>
       </nav>
     </>
