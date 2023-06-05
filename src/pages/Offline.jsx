@@ -1,7 +1,7 @@
 import React from "react";
 
 const Offline = () => {
-  return <div>This is service inside offline page.</div>;
+  return <div></div>;
 };
 
 export default Offline;
