@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
-      <nav className="main-navigation">
+      <nav className="main-navigation hidden md:block">
         <ul className="menu flex gap-10 ">
           <li className="menu-item">
             <NavLink to="/">Home</NavLink>

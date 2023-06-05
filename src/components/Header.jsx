@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import { Link } from "react-router-dom";
 import SocialIcons from "./SocialIcons";
 import Logo from "../images/a-logo.jpeg";
+import HamMenu from "./HamMenu";
 
 const Header = () => {
   return (
@@ -22,6 +23,7 @@ const Header = () => {
         </div>
         <Navbar />
         <SocialIcons />
+        <HamMenu />
       </div>
     </header>
   );
