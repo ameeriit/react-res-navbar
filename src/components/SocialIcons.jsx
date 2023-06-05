@@ -5,13 +5,13 @@ function SocialIcons() {
   return (
     <div className="social-menu flex gap-4">
       <a href="https://www.facebook.com/example-page">
-        <FaFacebook size={32} color="#3b5998" />
+        <FaFacebook size={24} color="#3b5998" />
       </a>
       <a href="https://twitter.com/example-account">
-        <FaTwitter size={32} color="#1da1f2" />
+        <FaTwitter size={24} color="#1da1f2" />
       </a>
       <a href="https://www.instagram.com/example-profile">
-        <FaInstagram size={32} color="#e4405f" />
+        <FaInstagram size={24} color="#e4405f" />
       </a>
     </div>
   );
